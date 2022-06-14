@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            background-color: turquoise;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align:center"> Employee Registration Form</h2>
+    <marquee style="color: red;"> Congratulations For Getting Selected For Job Please Register Yourself As Soon As
+        possible</marquee>
+    <br><br>
+    <form>
+        <tr>
+            <td>
+                Firstname:
+            </td>
+            <td>
+                <input type="text" placeholder="Your Firstname">
+            </td>
+            <td>
+                Lastname:
+            </td>
+            <td>
+                <input type="text" placeholder="Your Lastname">
+            </td>
+            <td>
+                E-Mail Address:
+            </td>
+            <td>
+                <input type="email" placeholder="xyz@abc.com">
+            </td>
+        </tr>
+        <br><br>
+        <tr>
+            <td>
+                Gender:
+            </td>
+            <td>
+                <input type="radio" name="Male">Male
+                <input type="radio" name="Female">Female
+                <input type="radio" name="Other">Other
+            </td>
+        </tr>
+        <br><br>
+        <tr>
+            <td>
+                Date Of Birth:
+            </td>
+            <td>
+                <input type="date" placeholder="DD/MM/YY">
+            </td>
+        </tr>
+        <br><br>
+        <tr>
+            <td>
+                Contact Number:
+            </td>
+            <td>
+                <input type="number" placeholder="+91-XXXXXXXXXX" maxlength="12">
+            </td>
+        </tr>
+        <br><br>
+        <tr>
+            <td>
+                Residential Address:
+            </td>
+            <td>
+                <input type="text" placeholder=" Street Address">
+            </td>
+            <br><br>
+            <td> City :</td>
+            <td>
+                <input type="text" placeholder=" City">
+            </td>
+            <td>
+                Zip Code:
+            </td>
+            <td>
+                <input type="number" placeholder="400XXX">
+            </td>
+            <td>
+                Country
+            </td>
+            <td>
+                <label for="Country">Please Select</label>
+
+                <select name="Country" id="Country">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Autralia">Australia</option>
+                    <option value="Other">Other</option>
+                </select>
+            </td>
+        </tr>
+        <br><br>
+        <tr>
+            <td>
+                Upload Identification Proof:
+            </td>
+            <td>
+                <input type="file" placeholder="Pan Card/AadharCard">
+            </td>
+            <td>
+                Upload Photo For ID Card
+            </td>
+            <td>
+                <input type="file">
+            </td>
+            <td>
+                Upload CV/ Cover-Letter
+            </td>
+            <td>
+                <input type="file">
+            </td>
+        </tr>
+        <br><br>
+        <tr>
+            <button type="submit" value="Submit">Submit</button>
+            <button type="reset" value="Reset">Reset</button>
+        </tr>
+    </form>
+</body>
+
+</html>
